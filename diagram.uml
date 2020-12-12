@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="2240.818783068783" y="357.0">com.Boots</node>
+    <node x="2153.818783068783" y="799.0">com.Place</node>
+    <node x="1911.9854497354497" y="755.0">com.StatusGrotto</node>
+    <node x="515.7214632665457" y="369.0">com.Movement</node>
+    <node x="1374.0430869980057" y="733.0">com.WeatherNow</node>
+    <node x="1948.3187830687832" y="1052.0">com.Grotto</node>
+    <node x="1088.1349206349207" y="335.0">com.Flashlight</node>
+    <node x="1170.0430869980057" y="722.0">com.WeatherStatusNow</node>
+    <node x="510.51530922022766" y="755.0">com.Korotyshka</node>
+    <node x="1207.1349206349207" y="0.0">com.StatusFlashlight</node>
+    <node x="2191.318783068783" y="1097.0">com.Tunnel</node>
+    <node x="911.8301240350424" y="1063.0">com.Road</node>
+    <node x="703.0818154219794" y="236.0">com.Status</node>
+    <node x="1710.5873015873017" y="1030.0">com.ConditionWall</node>
+    <node x="0.0" y="1429.0">com.StatusSomeone</node>
+    <node x="67.22968167230476" y="1041.0">com.Neznaika</node>
+    <node x="1276.5873015873017" y="1063.0">com.Weather</node>
+    <node x="1551.5873015873017" y="1030.0">com.StatusWall</node>
+    <node x="564.0" y="1429.0">com.Darkness</node>
+    <node x="1648.8368245294478" y="722.0">com.WeatherInfluence</node>
+    <node x="210.0" y="1429.0">com.StatusWeather</node>
+    <node x="721.0" y="1429.0">com.Falls</node>
+    <node x="295.7214632665457" y="302.0">com.ConditionKorotyshka</node>
+    <node x="407.0" y="1429.0">com.Absolute</node>
+    <node x="487.84864255356104" y="1041.0">com.Ponchik</node>
+    <node x="147.7214632665457" y="313.0">com.Location</node>
+    <node x="1003.0801240350424" y="722.0">com.StatusRoad</node>
+    <node x="814.5153092202277" y="799.0">com.Researches</node>
+    <node x="436.725431520514" y="44.0">com.FlashlightStatusNow</node>
+    <node x="1119.5430869980057" y="1354.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="com.FlashlightStatusNow">
+      <point x="-38.518518518518476" y="-15.0" />
+      <point x="1121.0245684794872" y="1334.0" />
+      <point x="0.0" y="1334.0" />
+      <point x="0.0" y="216.0" />
+      <point x="470.0587648538474" y="216.0" />
+      <point x="-66.66666666666663" y="49.0" />
+    </edge>
+    <edge source="com.Korotyshka" target="com.Boots">
+      <point x="120.88888888888891" y="-71.0" />
+      <point x="767.4041981091166" y="702.0" />
+      <point x="2259.818783068783" y="702.0" />
+      <point x="-38.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="com.WeatherInfluence">
+      <point x="20.740740740740648" y="-15.0" />
+      <point x="1180.2838277387464" y="1274.0" />
+      <point x="1880.0873015873017" y="1274.0" />
+      <point x="1880.0873015873017" y="1010.0" />
+      <point x="1795.5034911961147" y="1010.0" />
+      <point x="58.66666666666674" y="104.0" />
+    </edge>
+    <edge source="com.Korotyshka" target="com.Movement">
+      <point x="0.0" y="-71.0" />
+      <point x="646.5153092202277" y="552.0" />
+      <point x="571.7214632665457" y="552.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Main" target="com.Researches">
+      <point x="-17.77777777777783" y="-15.0" />
+      <point x="1141.765309220228" y="1264.0" />
+      <point x="898.3671610720794" y="1264.0" />
+      <point x="898.3671610720794" y="1010.0" />
+      <point x="878.5153092202277" y="1010.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="com.StatusWall">
+      <point x="14.814814814814781" y="-15.0" />
+      <point x="1174.3579018128205" y="1254.0" />
+      <point x="1621.0873015873017" y="1254.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="com.Weather" target="com.WeatherInfluence">
+      <point x="72.57142857142867" y="-49.0" />
+      <point x="1476.1587301587304" y="1000.0" />
+      <point x="1678.1701578627813" y="1000.0" />
+      <point x="-58.66666666666674" y="104.0" />
+    </edge>
+    <edge source="Main" target="com.Status">
+      <point x="-2.962962962963047" y="-15.0" />
+      <point x="1156.5801240350424" y="682.0" />
+      <point x="809.8675297076937" y="682.0" />
+      <point x="49.285714285714334" y="148.0" />
+    </edge>
+    <edge source="com.Ponchik" target="com.Status">
+      <point x="90.66666666666663" y="-71.0" />
+      <point x="714.5153092202277" y="1000.0" />
+      <point x="804.0153092202277" y="1000.0" />
+      <point x="804.0153092202277" y="672.0" />
+      <point x="793.4389582791223" y="672.0" />
+      <point x="32.85714285714289" y="148.0" />
+    </edge>
+    <edge source="com.Ponchik" target="com.Researches">
+      <point x="120.88888888888891" y="-71.0" />
+      <point x="744.73753144245" y="1010.0" />
+      <point x="835.8486425535609" y="1010.0" />
+      <point x="-42.66666666666674" y="27.0" />
+    </edge>
+    <edge source="com.Korotyshka" target="com.Flashlight">
+      <point x="90.66666666666674" y="-71.0" />
+      <point x="737.1819758868944" y="692.0" />
+      <point x="1124.1349206349207" y="692.0" />
+      <point x="-72.0" y="49.0" />
+    </edge>
+    <edge source="com.Neznaika" target="com.Location">
+      <point x="-119.0" y="-71.0" />
+      <point x="84.22968167230476" y="1000.0" />
+      <point x="127.74045884291809" y="1000.0" />
+      <point x="127.74045884291809" y="602.0" />
+      <point x="175.15003469511714" y="602.0" />
+      <point x="-36.571428571428555" y="71.0" />
+    </edge>
+    <edge source="com.Flashlight" target="com.FlashlightStatusNow">
+      <point x="-81.0" y="-49.0" />
+      <point x="1115.1349206349207" y="216.0" />
+      <point x="536.725431520514" y="216.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="Main" target="com.Flashlight">
+      <point x="23.703703703703695" y="-15.0" />
+      <point x="1183.2467907017094" y="1284.0" />
+      <point x="1901.4854497354497" y="1284.0" />
+      <point x="1901.4854497354497" y="692.0" />
+      <point x="1268.1349206349207" y="692.0" />
+      <point x="72.0" y="49.0" />
+    </edge>
+    <edge source="com.Korotyshka" target="com.ConditionKorotyshka">
+      <point x="-60.44444444444446" y="-71.0" />
+      <point x="586.0708647757832" y="572.0" />
+      <point x="452.8643204094028" y="572.0" />
+      <point x="57.14285714285711" y="82.0" />
+    </edge>
+    <edge source="Main" target="com.WeatherStatusNow">
+      <point x="2.962962962963047" y="-15.0" />
+      <point x="1162.5060499609688" y="1214.0" />
+      <point x="1218.1997354497357" y="1214.0" />
+      <point x="1218.1997354497357" y="1010.0" />
+      <point x="1200.7097536646725" y="1010.0" />
+      <point x="-61.33333333333326" y="104.0" />
+    </edge>
+    <edge source="com.Grotto" target="com.Place">
+      <point x="74.33333333333348" y="-60.0" />
+      <point x="2134.152116402117" y="1010.0" />
+      <point x="2182.318783068783" y="1010.0" />
+      <point x="-28.5" y="27.0" />
+    </edge>
+    <edge source="com.Road" target="com.Korotyshka">
+      <point x="-70.0" y="-49.0" />
+      <point x="946.8301240350424" y="980.0" />
+      <point x="714.5153092202277" y="980.0" />
+      <point x="68.0" y="71.0" />
+    </edge>
+    <edge source="com.Neznaika" target="com.ConditionKorotyshka">
+      <point x="-17.0" y="-71.0" />
+      <point x="186.22968167230476" y="1010.0" />
+      <point x="182.3643204094028" y="1010.0" />
+      <point x="182.3643204094028" y="642.0" />
+      <point x="367.15003469511714" y="642.0" />
+      <point x="-28.571428571428555" y="82.0" />
+    </edge>
+    <edge source="com.Tunnel" target="com.Place">
+      <point x="0.0" y="-15.0" />
+      <point x="28.5" y="27.0" />
+    </edge>
+    <edge source="Main" target="com.Road">
+      <point x="-11.851851851851734" y="-15.0" />
+      <point x="1147.691235146154" y="1244.0" />
+      <point x="964.3301240350424" y="1244.0" />
+      <point x="-52.5" y="49.0" />
+    </edge>
+    <edge source="Main" target="com.Boots">
+      <point x="38.518518518518476" y="-15.0" />
+      <point x="1198.0616055165242" y="1334.0" />
+      <point x="2300.7817460317456" y="1334.0" />
+      <point x="2300.7817460317456" y="702.0" />
+      <point x="2335.818783068783" y="702.0" />
+      <point x="38.0" y="27.0" />
+    </edge>
+    <edge source="com.Ponchik" target="com.ConditionKorotyshka">
+      <point x="-30.222222222222285" y="-71.0" />
+      <point x="593.6264203313387" y="960.0" />
+      <point x="499.5510235059419" y="960.0" />
+      <point x="499.5510235059419" y="632.0" />
+      <point x="424.29289183797425" y="632.0" />
+      <point x="28.571428571428555" y="82.0" />
+    </edge>
+    <edge source="Main" target="com.Weather">
+      <point x="5.925925925925867" y="-15.0" />
+      <point x="1165.4690129239316" y="1224.0" />
+      <point x="1340.0873015873017" y="1224.0" />
+      <point x="-63.5" y="49.0" />
+    </edge>
+    <edge source="Main" target="com.Grotto">
+      <point x="29.629629629629562" y="-15.0" />
+      <point x="1189.1727166276353" y="1304.0" />
+      <point x="2004.0687830687832" y="1304.0" />
+      <point x="-55.75" y="60.0" />
+    </edge>
+    <edge source="com.Flashlight" target="com.StatusFlashlight">
+      <point x="27.0" y="-49.0" />
+      <point x="1223.1349206349207" y="216.0" />
+      <point x="1251.1349206349207" y="216.0" />
+      <point x="-44.0" y="93.0" />
+    </edge>
+    <edge source="com.Weather" target="com.WeatherNow">
+      <point x="0.0" y="-49.0" />
+      <point x="1403.5873015873017" y="1010.0" />
+      <point x="1399.376420331339" y="1010.0" />
+      <point x="-50.66666666666674" y="93.0" />
+    </edge>
+    <edge source="com.Korotyshka" target="com.Status">
+      <point x="30.22222222222217" y="-71.0" />
+      <point x="676.7375314424498" y="672.0" />
+      <point x="744.153243993408" y="672.0" />
+      <point x="-16.428571428571445" y="148.0" />
+    </edge>
+    <edge source="com.Neznaika" target="com.Status">
+      <point x="17.0" y="-71.0" />
+      <point x="220.22968167230476" y="1010.0" />
+      <point x="193.3643204094028" y="1010.0" />
+      <point x="193.3643204094028" y="652.0" />
+      <point x="711.2961011362652" y="652.0" />
+      <point x="-49.28571428571428" y="148.0" />
+    </edge>
+    <edge source="Main" target="com.WeatherNow">
+      <point x="11.851851851851961" y="-15.0" />
+      <point x="1171.3949388498577" y="1244.0" />
+      <point x="1541.0873015873017" y="1244.0" />
+      <point x="1541.0873015873017" y="990.0" />
+      <point x="1500.7097536646725" y="990.0" />
+      <point x="50.66666666666674" y="93.0" />
+    </edge>
+    <edge source="Main" target="com.StatusGrotto">
+      <point x="26.666666666666742" y="-15.0" />
+      <point x="1186.2097536646725" y="1294.0" />
+      <point x="1921.626420331339" y="1294.0" />
+      <point x="1921.626420331339" y="1010.0" />
+      <point x="1936.8187830687832" y="1010.0" />
+      <point x="-49.666666666666515" y="71.0" />
+    </edge>
+    <edge source="Main" target="com.Neznaika">
+      <point x="-29.629629629629562" y="-15.0" />
+      <point x="1129.9134573683762" y="1304.0" />
+      <point x="135.22968167230476" y="1304.0" />
+      <point x="-68.0" y="71.0" />
+    </edge>
+    <edge source="Main" target="com.Location">
+      <point x="-35.55555555555566" y="-15.0" />
+      <point x="1123.98753144245" y="1324.0" />
+      <point x="11.302910052909965" y="1324.0" />
+      <point x="11.302910052909965" y="592.0" />
+      <point x="156.8643204094028" y="592.0" />
+      <point x="-54.85714285714289" y="71.0" />
+    </edge>
+    <edge source="Main" target="com.ConditionWall">
+      <point x="17.77777777777783" y="-15.0" />
+      <point x="1177.3208647757835" y="1264.0" />
+      <point x="1790.0873015873017" y="1264.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="Main" target="com.StatusRoad">
+      <point x="-5.925925925925867" y="-15.0" />
+      <point x="1153.6171610720799" y="1224.0" />
+      <point x="1132.3301240350424" y="1224.0" />
+      <point x="1132.3301240350424" y="1010.0" />
+      <point x="1122.2467907017092" y="1010.0" />
+      <point x="47.66666666666674" y="104.0" />
+    </edge>
+    <edge source="com.Road" target="com.StatusRoad">
+      <point x="0.0" y="-49.0" />
+      <point x="1016.8301240350424" y="1010.0" />
+      <point x="1026.9134573683757" y="1010.0" />
+      <point x="-47.66666666666674" y="104.0" />
+    </edge>
+    <edge source="com.Grotto" target="com.StatusGrotto">
+      <point x="-74.33333333333348" y="-60.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="com.Ponchik" target="com.Korotyshka">
+      <point x="0.0" y="-71.0" />
+      <point x="-22.66666666666663" y="71.0" />
+    </edge>
+    <edge source="com.Ponchik" target="com.Location">
+      <point x="-90.66666666666674" y="-71.0" />
+      <point x="533.1819758868943" y="980.0" />
+      <point x="359.0818154219794" y="980.0" />
+      <point x="359.0818154219794" y="602.0" />
+      <point x="230.00717755225992" y="602.0" />
+      <point x="18.28571428571422" y="71.0" />
+    </edge>
+    <edge source="Main" target="com.Ponchik">
+      <point x="-23.703703703703695" y="-15.0" />
+      <point x="1135.839383294302" y="1284.0" />
+      <point x="555.848642553561" y="1284.0" />
+      <point x="-68.0" y="71.0" />
+    </edge>
+    <edge source="com.Weather" target="com.Korotyshka">
+      <point x="-108.85714285714289" y="-49.0" />
+      <point x="1294.7301587301588" y="970.0" />
+      <point x="759.8486425535611" y="970.0" />
+      <point x="113.33333333333348" y="71.0" />
+    </edge>
+    <edge source="com.Weather" target="com.WeatherStatusNow">
+      <point x="-36.28571428571422" y="-49.0" />
+      <point x="1367.3015873015875" y="950.0" />
+      <point x="1323.376420331339" y="950.0" />
+      <point x="61.33333333333326" y="104.0" />
+    </edge>
+    <edge source="Main" target="com.ConditionKorotyshka">
+      <point x="-32.59259259259261" y="-15.0" />
+      <point x="1126.950494405413" y="1314.0" />
+      <point x="56.729681672304764" y="1314.0" />
+      <point x="56.729681672304764" y="622.0" />
+      <point x="310.0071775522599" y="622.0" />
+      <point x="-85.71428571428578" y="82.0" />
+    </edge>
+    <edge source="com.Korotyshka" target="com.Location">
+      <point x="-120.88888888888891" y="-71.0" />
+      <point x="525.6264203313387" y="592.0" />
+      <point x="248.29289183797437" y="592.0" />
+      <point x="36.57142857142867" y="71.0" />
+    </edge>
+    <edge source="com.Neznaika" target="com.Korotyshka">
+      <point x="85.0" y="-71.0" />
+      <point x="288.22968167230476" y="1000.0" />
+      <point x="533.1819758868943" y="1000.0" />
+      <point x="-113.33333333333337" y="71.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1361.9999999999998" y="853.9999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
