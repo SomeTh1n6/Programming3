@@ -6,4 +6,5 @@ public class Boots {
     public String getName(){
         return this.name;
     }
+
 }

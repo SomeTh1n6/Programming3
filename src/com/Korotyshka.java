@@ -9,6 +9,14 @@ public abstract class Korotyshka implements Movement {
     private String name;
     private ConditionKorotyshka conditionKorotyshka;
 
+    public Korotyshka(Location location, Status status, Status statusSecond , String name, ConditionKorotyshka conditionKorotyshka){
+        this.location = location;
+        this.status = status;
+        this.statusSecond = statusSecond;
+        this.name = name;
+        this.conditionKorotyshka = conditionKorotyshka;
+    }
+
     public String getName(){
         return this.name;
     }
@@ -105,48 +113,6 @@ public abstract class Korotyshka implements Movement {
         System.out.println(this.getName() + " " + this.conditionKorotyshka.getConditionKorotyshka() + " смотрит вокруг на локации " + this.location.getLocation());
     }
 
-    public Korotyshka(Location location, Status status, Status statusSecond , String name, ConditionKorotyshka conditionKorotyshka){
-        this.location = location;
-        this.status = status;
-        this.statusSecond = statusSecond;
-        this.name = name;
-        this.conditionKorotyshka = conditionKorotyshka;
-    }
-
-
-
-    @Override
-    public boolean equals(Object object){
-        if (object == null || object.getClass() != this.getClass()){
-            return false;
-        }
-        if (this == object){
-            return true;
-        }
-        Korotyshka other = (Korotyshka) object;
-        return Objects.equals(name, other.name);
-    }
-
-    public String jumpToTryWarm(){
-        return (getName() + " прыгает для того чтобы было: ' " + this.warm() + " '");
-    }
-
-    public String warm(){
-        return (getName() + " согревается");
-    }
-
-    @Override
-    public int hashCode(){
-        return Objects.hash(name);
-    }
-
-    @Override
-    public String toString(){
-        return this.name;
-    }
-
-
-
 
     public static class BodyPart {
         private String name;
@@ -188,8 +154,40 @@ public abstract class Korotyshka implements Movement {
         }
     }
 
+
     public void TryToWarm(BodyPart bodyPart){
         System.out.println(this.getName() + " " + this.jumpToTryWarm() + ". " + bodyPart.claps(this) + ", " +
                 bodyPart.shake(this));
+    }
+
+
+    @Override
+    public boolean equals(Object object){
+        if (object == null || object.getClass() != this.getClass()){
+            return false;
+        }
+        if (this == object){
+            return true;
+        }
+        Korotyshka other = (Korotyshka) object;
+        return Objects.equals(name, other.name);
+    }
+
+    public String jumpToTryWarm(){
+        return (getName() + " прыгает для того чтобы было: ' " + this.warm() + " '");
+    }
+
+    public String warm(){
+        return (getName() + " согревается");
+    }
+
+    @Override
+    public int hashCode(){
+        return Objects.hash(name);
+    }
+
+    @Override
+    public String toString(){
+        return this.name;
     }
 }

@@ -23,6 +23,8 @@ public class Main{
         Tunnel.Wall rightWall = new Tunnel.Wall(ConditionWall.SUDDENLY , StatusWall.RIGHT);
         Grotto grotto = new Grotto(StatusGrotto.NONE, StatusGrotto.NONE, StatusGrotto.NONE);
 
+
+
         ponchik.changeLocation(Location.CAVE);
         neznaika.changeLocation(Location.CAVE);
 
